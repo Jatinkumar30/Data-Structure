@@ -22,7 +22,7 @@ void insertAfter(Node *node, int new_data)
 {
     if (node == NULL)
     {
-        printf("the given previous node cannot be NULL");
+        cout<<"the given previous node cannot be NULL"<<endl;
         return;
     }
 
